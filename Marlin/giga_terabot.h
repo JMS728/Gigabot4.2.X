@@ -11,7 +11,7 @@
 
 #if SYSTEM_SECTION == INFO
   #undef  STRING_CONFIG_H_AUTHOR
-  #define STRING_CONFIG_H_AUTHOR "(GBXL V4.x.x - Marlin 1.1.8)"
+  #define STRING_CONFIG_H_AUTHOR "(GBTERA V4.x.x - Marlin 1.1.8)"
 
   #undef  SHOW_CUSTOM_BOOTSCREEN
   #define SHOW_CUSTOM_BOOTSCREEN
@@ -138,5 +138,5 @@
   #undef  DIGIPOT_I2C_NUM_CHANNELS
   #define DIGIPOT_I2C_NUM_CHANNELS    7 // AZTEEG_X3_PRO: 8 (Not sure why this was set to 7 at some point)
   #undef  DIGIPOT_I2C_MOTOR_CURRENTS
-  #define DIGIPOT_I2C_MOTOR_CURRENTS  { 2.5, 2.5, 2.5, 2.0, 2.0, 1.8, 1.8 }  //  AZTEEG_X3_PRO
+  #define DIGIPOT_I2C_MOTOR_CURRENTS  { 2.25, 2.25, 2.25, 2.0, 2.0, 1.8, 1.8 }  //  AZTEEG_X3_PRO
 #endif
